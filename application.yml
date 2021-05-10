@@ -5,17 +5,17 @@ spring:
 
 #开发环境
 ---
-spring：
+spring:
   profiles: dev
   application:
-  name: microservicecloud-config-dev
+    name: microservicecloud-config-dev
 
 #测试环境
 ---
-spring：
+spring:
   profiles: test
   application:
-  name: microservicecloud-config-test
+    name: microservicecloud-config-test
 
 #一定要是uft-8格式保存 
  
