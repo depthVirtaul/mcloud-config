@@ -1,0 +1,18 @@
+spring:
+    profiles:
+    active:
+    -  dev
+
+---
+spring： #开发环境
+   profiles: dev
+   application:
+     name: microservicecloud-config-dev
+---
+spring： #测试环境
+   profiles: test
+   application:
+     name: microservicecloud-config-test
+     
+# 一定要是uft-8格式保存     
+ 
